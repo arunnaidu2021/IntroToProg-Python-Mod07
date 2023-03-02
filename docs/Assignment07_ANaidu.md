@@ -106,16 +106,18 @@ Here are some screenshots of the code running in PyCharm:
 ![Figure 1](https://github.com/arunnaidu2021/IntroToProg-Python-Mod07/blob/main/docs/Screen1.png)
 Figure 1.
 
- 
+![Figure 2](https://github.com/arunnaidu2021/IntroToProg-Python-Mod07/blob/main/docs/Screen2.png) 
 Figure 2.
 
 And here is it running in the console:
  
+![Figure 3](https://github.com/arunnaidu2021/IntroToProg-Python-Mod07/blob/main/docs/Screen3.png)
 Figure 3.
 
 
 Finally, here is the comparison of the file size in csv and binary.  Pretty impressive compression:
- 
+
+![Figure 4](https://github.com/arunnaidu2021/IntroToProg-Python-Mod07/blob/main/docs/Screen4.png)
 Figure 4.
 
 ### Summary
