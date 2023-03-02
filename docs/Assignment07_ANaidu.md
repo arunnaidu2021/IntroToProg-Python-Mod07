@@ -52,37 +52,12 @@ A standard exception was used here while opening the file once the correct name 
 
 
 Then I read in the comma separated text file and split the header into elements like we have in previous assignments:
-def print_header(obj_file):
-    """ Show the items to the user
-    :param obj_file:
-    :return: list of header items
-    """
-    lst_header_data = obj_file.readline().split(',')  # Pull the header row from the dataset
-    index = 0
-    for i in lst_header_data:
-        print(index, '\t', i)
-        index += 1
-    return lst_header_data   # return the list with the header row
+
+![Snippet 3](https://github.com/arunnaidu2021/IntroToProg-Python-Mod07/blob/main/docs/Snip3.png)
 
 Then there  is the pickling function that takes the csv file and pickles it into binary:
-def compactor(str_file_csv, str_file_bin):
-    """ Compress text file into binary
 
-    :param str_file_csv:
-    :param str_file_bin:
-    :return: none
-    """
-    lst_table = []
-    obj_file_csv = open(str_file_csv, 'r')
-    index = 0
-    for i in lstHeaderData:  # read in data
-        lstRow = obj_file_csv.readline().split()
-        lst_table.append(lstRow)   # build table
-    obj_file_csv.close()
-    obj_file_bin = open(str_file_bin, "wb")
-    pickle.dump(lst_table, obj_file_bin)
-    obj_file_bin.close()
-
+![Snippet 4](https://github.com/arunnaidu2021/IntroToProg-Python-Mod07/blob/main/docs/Snip4.png)
 
 The main section of code allows the user to pick out one of the parameters in the data.  In a final version of the program, the user would get some statistical analysis of their selected parameter.  I decided to leave that out since it wasn’t in the scope of the assignment.
 Here are some screenshots of the code running in PyCharm:
