@@ -83,3 +83,9 @@ Figure 4.
 This assignment was quite different in that there was no existing structure to work from.  I had to rely heavily on previous assignments and the class textbook as well as two other textbooks I have: “Automate the Boring Stuff with Python” 2nd edition, by Al Sweigert, and “Python Crash Course”  2nd edition, by Eric Matthes.
 
 But there is potential to do a lot of interesting things with databases that are applicable to my work.
+
+1.  “Understanding Python pickling and how to use it securely”
+https://www.synopsys.com/blogs/software-security/python-pickling/#:~:text=Pickle%20in%20Python%20is%20primarily,transport%20data%20over%20the%20network.
+
+2.  “Python Pickling” 
+https://www.tutorialspoint.com/python-pickling
