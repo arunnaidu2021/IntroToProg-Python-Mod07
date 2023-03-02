@@ -102,7 +102,8 @@ def compactor(str_file_csv, str_file_bin):
 
 The main section of code allows the user to pick out one of the parameters in the data.  In a final version of the program, the user would get some statistical analysis of their selected parameter.  I decided to leave that out since it wasn’t in the scope of the assignment.
 Here are some screenshots of the code running in PyCharm:
- 
+
+![Figure 1](https://github.com/arunnaidu2021/IntroToProg-Python-Mod07/blob/main/docs/Screen1.png)
 Figure 1.
 
  
