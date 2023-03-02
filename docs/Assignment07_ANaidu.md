@@ -121,5 +121,6 @@ Finally, here is the comparison of the file size in csv and binary.  Pretty impr
 Figure 4.
 
 ### Summary
-This assignment was quite different in that there was no existing structure to work from.  I had to rely heavily on previous assignments and the class textbook as well as two other textbooks I have: “Automate the Boring Stuff with Python” 2nd edition, by Al Sweigert, and “Python Crash Course”  2nd edition, by Eric Matthes.  
+This assignment was quite different in that there was no existing structure to work from.  I had to rely heavily on previous assignments and the class textbook as well as two other textbooks I have: “Automate the Boring Stuff with Python” 2nd edition, by Al Sweigert, and “Python Crash Course”  2nd edition, by Eric Matthes.
+
 But there is potential to do a lot of interesting things with databases that are applicable to my work.
