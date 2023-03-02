@@ -41,30 +41,14 @@ Save the file as a binary.
 ### Detailed Walkthrough
 
 The first step is to get the user to enter the available filename in the correct format.  I raised a custom exception here if the user entered the full filename:
-# -- Input/Output -- #
-def get_file_name():
-    """  Gets the filename from the user
-    :param: none
-    :return: filename without suffix
-    """
-    str_file = input("Please enter csv filename or return to exit: ")
-    if '.' in str_file:  # user entered full filename
-        raise Exception("Please enter the filename without the suffix.")
 
-    return str_file
+![Snippet 1](https://github.com/arunnaidu2021/IntroToProg-Python-Mod07/blob/main/docs/Snip1.png)
 
 This was done to demonstrate a custom exception.  In a practical program, it would not be very friendly to simply exit with an error message, so I would instead loop the input until I get the format I want.  
+
 A standard exception was used here while opening the file once the correct name is entered:
-def open_file(str_file_csv):
-    """ Opens the text file
-    :param str_file_csv:
-    :return obj_handle:
-    """
-    try:
-        return open(str_file_csv, 'r')
-    except FileNotFoundError:
-        print("File not found.")
-        exit(-1)
+
+![Snippet 2](https://github.com/arunnaidu2021/IntroToProg-Python-Mod07/blob/main/docs/Snip2.png)
 
 
 Then I read in the comma separated text file and split the header into elements like we have in previous assignments:
